@@ -5,6 +5,7 @@ import Friends from './Friends';
 import Rendern from './Rendern';
 import Team from './Team';
 import Users from './Users';
+import Splitting from './Splitting';
 
 function App() {
  
@@ -25,6 +26,8 @@ function App() {
     <>
       
       <h1>Vite + React</h1>
+      
+       <Splitting></Splitting>
 
       <Rendern></Rendern>
 
