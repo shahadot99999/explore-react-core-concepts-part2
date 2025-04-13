@@ -8,6 +8,7 @@ import Users from './Users';
 import Splitting from './Splitting';
 import Rendering from './Rendering';
 import RecipeList from './RecipeList';
+import Haiku from './Haiku';
 
 function App() {
  
@@ -28,8 +29,10 @@ function App() {
     <>
       
       <h1>Vite + React</h1>
-
-       <RecipeList></RecipeList>
+      
+       <Haiku></Haiku>
+       
+       {/* <RecipeList></RecipeList> */}
 
        {/* <Rendering></Rendering> */}
       
