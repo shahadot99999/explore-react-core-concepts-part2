@@ -7,6 +7,7 @@ import Team from './Team';
 import Users from './Users';
 import Splitting from './Splitting';
 import Rendering from './Rendering';
+import RecipeList from './RecipeList';
 
 function App() {
  
@@ -28,7 +29,9 @@ function App() {
       
       <h1>Vite + React</h1>
 
-       <Rendering></Rendering>
+       <RecipeList></RecipeList>
+
+       {/* <Rendering></Rendering> */}
       
        {/* <Splitting></Splitting> */}
 
